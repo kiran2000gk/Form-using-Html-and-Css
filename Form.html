@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Input Form</title>
+    <link rel="stylesheet" href="./formstyle.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Form Sheet</h1>
+      <form>
+        <label for="name"> First Name:</label>
+        <input type="text" id="nname" placeholder="First name" required />
+        <br /><br />
+        <label for="lname"> Last Name:</label>
+        <input type="text" id="lname" placeholder="Last name" required />
+        <br /><br />
+        <label for="email">Email ID: </label>
+        <input type="email" id="email" placeholder=" Enter email id" required />
+        <br />
+        <br />
+
+        <label for="pass">Password: </label>
+        <input
+          id="pass"
+          type="password"
+          pattern="[0-9a-zA-z]{4,8}"
+          title="Enter an Password consisting of 4-8 characters maximum"
+          autocomplete="new-password"
+          maxlength="8"
+          placeholder=" (8 characters maximum)"
+          required
+        />
+
+        <br />
+        <br />
+        <!-- <input type="submit" value="Submit" /> -->
+        <!-- <input type="reset" value="Reset" /> -->
+
+        <button>Submit</button>
+        <button>Reset</button>
+      </form>
+    </section>
+  </body>
+</html>
+
+<!-- <h1> Login </h1>
+
+    <div id="formname">
+
+       
+        <br>
+        <label for="username"  name="user" > User name: </label>
+        <input type="text" hidename="username" id="username" placeholder="Enter Name">
+    <br><br>
+
+
+         <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email:">
+
+<-- 
+        <label for="mail"   > Email ID: </label>
+        <input type="email" name="Email" hidename="mail" id="Email" placeholder="Email"> 
+    <br><br>
+        <label for="pass"  name="password" > Password: </label>
+        <input type="password" hidename="password" id="pass" placeholder="Password" pattern="">
+    <br>
+    <br>
+    <-- <button type="button" onclick="alert('Submit')">Submit</button> --
+    <button> Submit</button>
+    
+    </div>
+     -->
